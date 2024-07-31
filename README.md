@@ -51,8 +51,10 @@ python network_analyzer.py --dst_port 80  # Filter by destination port
 
 ## Visualizing Data
 After running the script, open a web browser and navigate to http://127.0.0.1:8050/ to view real-time visualizations of the captured traffic.
+### Visualization for output without parameters
 ![Visualization for output without parameters](https://github.com/Fathijem/Network-Traffic-Analyser/blob/6a4606de48c7676367cc0ea4081539f06ca7cfd2/Sample%20Output/NA_visual.jpg)
 
+### Visualization for output with parameters
 ![Visualization for output with parameters](https://github.com/Fathijem/Network-Traffic-Analyser/blob/6a4606de48c7676367cc0ea4081539f06ca7cfd2/Sample%20Output/NA_visual2.jpg)
 
 ## Data Storage
