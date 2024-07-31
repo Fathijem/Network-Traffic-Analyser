@@ -37,6 +37,8 @@ python network_analyzer.py --src_ip 192.168.1.1  # Filter by source IP
 python network_analyzer.py --dst_port 80  # Filter by destination port
 ```
 
+### Output without parameters
+![Network Traffic Analyzer](https://github.com/Fathijem/Network-Traffic-Analyser/blob/27d095510220a8ce041d3e11a776273e58a8ff65/Sample%20Output/NA.jpg)
 **Command-Line Arguments**
 * --protocol: Filter by protocol (TCP, UDP, or ALL).
 * --src_ip: Filter by source IP address.
