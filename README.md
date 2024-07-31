@@ -36,7 +36,8 @@ python network_analyzer.py --protocol TCP  # Capture only TCP packets
 python network_analyzer.py --src_ip 192.168.1.1  # Filter by source IP
 python network_analyzer.py --dst_port 80  # Filter by destination port
 ```
-![Normal Network Analyzer without parameters](Sample_Output/NA.png)
+![Normal Network Analyzer without parameters](Sample Output/NA.jpg)
+
 **Command-Line Arguments**
 * --protocol: Filter by protocol (TCP, UDP, or ALL).
 * --src_ip: Filter by source IP address.
