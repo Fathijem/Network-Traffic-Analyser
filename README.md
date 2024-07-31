@@ -36,9 +36,6 @@ python network_analyzer.py --protocol TCP  # Capture only TCP packets
 python network_analyzer.py --src_ip 192.168.1.1  # Filter by source IP
 python network_analyzer.py --dst_port 80  # Filter by destination port
 ```
-
-### Output without parameters
-![Network Traffic Analyzer](https://github.com/Fathijem/Network-Traffic-Analyser/blob/27d095510220a8ce041d3e11a776273e58a8ff65/Sample%20Output/NA.jpg)
 **Command-Line Arguments**
 * --protocol: Filter by protocol (TCP, UDP, or ALL).
 * --src_ip: Filter by source IP address.
@@ -46,11 +43,24 @@ python network_analyzer.py --dst_port 80  # Filter by destination port
 * --src_port: Filter by source port.
 * --dst_port: Filter by destination port.
 
+### Output without parameters
+![Network Traffic Analyzer](https://github.com/Fathijem/Network-Traffic-Analyser/blob/27d095510220a8ce041d3e11a776273e58a8ff65/Sample%20Output/NA.jpg)
+
+### Output with parameters
+![Network Traffic Analyzer](https://github.com/Fathijem/Network-Traffic-Analyser/blob/6a4606de48c7676367cc0ea4081539f06ca7cfd2/Sample%20Output/NA2.jpg)
+
 ## Visualizing Data
 After running the script, open a web browser and navigate to http://127.0.0.1:8050/ to view real-time visualizations of the captured traffic.
+![Visualization for output without parameters](https://github.com/Fathijem/Network-Traffic-Analyser/blob/6a4606de48c7676367cc0ea4081539f06ca7cfd2/Sample%20Output/NA_visual.jpg)
+
+![Visualization for output with parameters](https://github.com/Fathijem/Network-Traffic-Analyser/blob/6a4606de48c7676367cc0ea4081539f06ca7cfd2/Sample%20Output/NA_visual2.jpg)
 
 ## Data Storage
-Captured packet data is saved in a text file packet_data.txt in the same directory as the script. Each line in the file represents a captured packet with its timestamp, source IP, destination IP, protocol, and length.
+Captured packet data is saved in a text file packet_data.txt in the same directory as the script. Each line in the file represents a captured packet with its timestamp, source IP, destination IP, protocol, and length. You cant view the file using the below command:
+```bash
+cat packet_data.txt
+```
+![Packet Captured and stored in text file](https://github.com/Fathijem/Network-Traffic-Analyser/blob/6a4606de48c7676367cc0ea4081539f06ca7cfd2/Sample%20Output/output_view.jpg)
 
 ## Stopping the Analyzer
 To stop the analyzer and close the Dash application, use Ctrl+C in the terminal.
